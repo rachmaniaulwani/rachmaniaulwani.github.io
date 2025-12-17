@@ -12,16 +12,16 @@ contact_note: >
 description: >
   A portfolio of Urban Planning, GIS, and Environmental Research.
 footer_text: >
-  Copyright © 2025 Rachmania Ulwani. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Copyright © 2025 Rachmania Ulwani. Powered by Jekyll.
 keywords: urban planning, gis, climatology, ubc, photography
 lang: en
 icon: ⚛️
 
 url: "https://rachmaniaulwani.github.io"
-baseurl: ""  # This must remain empty!
+baseurl: ""
 
 # -----------------------------------------------------------------------------
-# Jekyll Scholar (Your Publications)
+# Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
@@ -50,7 +50,7 @@ scholar:
   enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
-# Layout Settings (Do not touch below this line unless needed)
+# Theme Settings
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
@@ -60,24 +60,6 @@ socials_in_search: true
 posts_in_search: true
 bib_search: true
 max_width: 930px
-
-# Analytics
-enable_google_analytics: false
-enable_cronitor_analytics: false
-enable_pirsch_analytics: false
-enable_openpanel_analytics: false
-
-# Blog Settings
-blog_name: al-folio
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
-pagination:
-  enabled: true
-related_blog_posts:
-  enabled: true
-  max_related: 5
-
-# Theme Features
 enable_masonry: true
 enable_math: true
 enable_tooltips: false
@@ -88,7 +70,10 @@ enable_medium_zoom: true
 enable_progressbar: true
 enable_video_embedding: false
 
-# Standard Jekyll Settings
+# -----------------------------------------------------------------------------
+# Standard Settings
+# -----------------------------------------------------------------------------
+
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -96,7 +81,6 @@ kramdown:
   syntax_highlighter_opts:
     css_class: "highlight"
 
-# Plugins & Excludes
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
