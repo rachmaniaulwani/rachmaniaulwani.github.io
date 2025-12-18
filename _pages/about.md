@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. UBC Geographical Science | Specialization in Climatology & Hydrology | Minor in Geographic Information Science and Geographical Computation (GIS&GC)
+subtitle: UBC Geographical Science | Specialization in Climatology & Hydrology | Minor in Geographic Information Science and Geographical Computation (GIS&GC)
 
 profile:
   align: right
@@ -25,6 +25,7 @@ latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+news: true
 ---
 
 Rachmania is a fourth-year undergraduate student at the University of British Columbia, majoring in Geographical Sciences with a minor in GIS and Geographical Computation. Her academic focus centers on the intersection of climate and health, with a specific specialization in Climatology and Hydrology. She is passionate about utilizing spatial analysis to inform resilient urban planning and design.
