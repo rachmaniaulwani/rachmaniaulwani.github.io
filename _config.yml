@@ -111,6 +111,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
+  - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
@@ -142,3 +143,12 @@ jekyll-archives:
       categories: "/blog/:type/:name/"
   books:
     enabled: [year, tags, categories]
+
+# -----------------------------------------------------------------------------
+# Image Settings (Disable to fix crashes)
+# -----------------------------------------------------------------------------
+
+imagemagick:
+  enabled: false
+
+enable_publication_thumbnails: false
