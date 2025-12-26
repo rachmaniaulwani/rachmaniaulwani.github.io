@@ -12,7 +12,7 @@ contact_note: >
 description: >
   A portfolio of Urban Planning, GIS, and Environmental Research.
 footer_text: >
-  Copyright © 2025 Rachmania Ulwani. Powered by Jekyll.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
 keywords: urban planning, gis, climatology, ubc, photography
 lang: en
 icon: 🌎
