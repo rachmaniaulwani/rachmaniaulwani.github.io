@@ -31,6 +31,15 @@ profile:
         width: 100%; 
         height: auto;
     }
+
+    /* 4. The "Nice Line" Style */
+      hr.style-one {
+          border: 0;
+          height: 1px;
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+          margin-bottom: 25px;
+          margin-top: 10px;
+      }
     </style>
   address: >
     Department of Geography<br>
@@ -51,7 +60,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 news: true
 ---
-
+<hr class="style-one">
 Rachmania is a fourth-year undergraduate student at the University of British Columbia, majoring in Geographical Sciences with a minor in GIS and Geographical Computation. Her academic focus centers on the intersection of climate and health, with a specific specialization in Climatology and Hydrology. She is passionate about utilizing spatial analysis to inform resilient urban planning and design.
 
 Currently, Rachmania is a member of the Environmental Modeling, oBservations, and Remote Sensing (EMBRS) Lab led by Dr. Tianjia (Tina) Liu. Her research within the lab involves exploring the impacts of wildfire smoke exposure across British Columbia, contributing to a broader understanding of how extreme environmental events affect regional health.
