@@ -13,13 +13,12 @@ profile:
     /* 1. Force the Bio Text to be Academic Serif (Georgia/Times) */
       .clearfix { 
           font-family: Georgia, "Times New Roman", Times, serif !important; 
-          font-size: 1.1rem;       /* Slightly larger text like the example */
-          line-height: 1.6;        /* Nice spacing between lines */
-          color: #333;             /* Softer black for reading */
-          text-align: justify;     /* Makes the text block square/tidy */
+          font-size: 0.95rem !important;  /* CHANGED: Made text smaller */
+          line-height: 1.5;               /* Adjusted spacing for smaller text */
+          color: #333;
+          text-align: justify;
       }
 
-      /* 2. Style the Headers (e.g. "Short Bio") to be Bold & Black */
       .clearfix h2, .clearfix h1 {
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
           color: #000000 !important;
