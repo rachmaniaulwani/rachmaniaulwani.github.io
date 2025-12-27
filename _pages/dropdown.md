@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hobbies
+title: others
 nav: true
 nav_order: 3
 dropdown: true
