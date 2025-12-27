@@ -10,6 +10,14 @@ profile:
   image_circular: false  # Keeps it rectangular
   more_info: >
     <style>
+      hr.academic-line {
+        border: 0;
+        height: 1px;
+        /* Use a medium grey that is visible on both White and Black backgrounds */
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #888888, rgba(0, 0, 0, 0));
+        margin-bottom: 25px;
+        margin-top: 0px;
+  }
     /* 1. Force the Bio Text to be Academic Serif (Georgia/Times) */
       .clearfix { 
           font-family: Georgia, "Times New Roman", Times, serif !important; 
@@ -18,29 +26,26 @@ profile:
           color: #333;
           text-align: justify;
       }
-
       .clearfix h2, .clearfix h1 {
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
           color: #000000 !important;
           font-weight: 700;
           margin-top: 10px;
-      }
-      
+      }    
     .profile img { 
-        max-width: 200px !important;  /* Forces the image to be smaller */
-        width: 100%; 
-        height: auto;
-        border-radius: 2px;
+        float: right;          /* Puts image on the right */
+        width: 260px;          /* Fixed width */
+        margin-left: 25px;     /* Space between text and photo */
+        margin-bottom: 15px;
+        border-radius: 3px;
     }
-
-    /* 4. The "Nice Line" Style */
-      hr.style-one {
-          border: 0;
-          height: 1px;
-          background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
-          margin-bottom: 25px;
-          margin-top: 10px;
-      }
+    /* Header Styling */
+    h2.bio-header {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 700;
+        margin-top: 0;
+        color: var(--global-theme-color); /* Matches your website blue */
+    }
     </style>
   address: >
     Department of Geography<br>
@@ -61,9 +66,21 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 news: true
 ---
-<hr class="style-one">
-Rachmania is a fourth-year undergraduate student at the University of British Columbia, majoring in Geographical Sciences with a minor in GIS and Geographical Computation. Her academic focus centers on the intersection of climate and health, with a specific specialization in Climatology and Hydrology. She is passionate about utilizing spatial analysis to inform resilient urban planning and design.
+   </style>
+    <hr class="academic-line">
 
+  <div class="academic-text">
+      <img src="assets/img/prof_pic.jpg" class="prof-photo" alt="Profile Picture">
+
+  <h2 class="bio-header">Short Bio</h2>
+
+  <p>
+    Rachmania is a fourth-year undergraduate student at the University of British Columbia, majoring in Geographical Sciences with a minor in GIS and Geographical Computation. Her academic focus centers on the intersection of climate and health, with a specific specialization in Climatology and Hydrology. She is passionate about utilizing spatial analysis to inform resilient urban planning and design.
+</p>
+<p>
 Currently, Rachmania is a member of the Environmental Modeling, oBservations, and Remote Sensing (EMBRS) Lab led by Dr. Tianjia (Tina) Liu. Her research within the lab involves exploring the impacts of wildfire smoke exposure across British Columbia, contributing to a broader understanding of how extreme environmental events affect regional health.
-
+</p>
+<p>
 Outside of academics, Rachmania is an avid runner and hiker who also enjoys exploring new recipes in the kitchen. In her spare time, she also enjoys immersing herself in movies, music, and fiction books.
+</p>
+</div>
