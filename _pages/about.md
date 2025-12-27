@@ -30,6 +30,7 @@ profile:
         max-width: 200px !important;  /* Forces the image to be smaller */
         width: 100%; 
         height: auto;
+        border-radius: 2px;
     }
 
     /* 4. The "Nice Line" Style */
