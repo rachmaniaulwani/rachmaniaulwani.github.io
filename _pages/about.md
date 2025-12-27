@@ -7,12 +7,20 @@ subtitle: UBC Geographical Science | Specialization in Climatology & Hydrology |
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false  # Keeps it rectangular
   more_info: >
-    <p>Department of Geography</p>
-    <p>University of British Columbia</p>
-    <p>Vancouver, BC, Canada</p>
-
+    <style>
+    .profile img { 
+        max-width: 200px !important;  /* Forces the image to be smaller */
+        width: 100%; 
+        height: auto;
+    }
+    </style>
+  address: >
+    Department of Geography<br>
+    University of British Columbia<br>
+    Vancouver, BC, Canada
+    
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
