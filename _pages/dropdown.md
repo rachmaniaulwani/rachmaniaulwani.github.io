@@ -1,13 +1,16 @@
 ---
 layout: page
-title: submenus
+title: Hobbies
 nav: true
-nav_order: 8
+nav_order: 3
 dropdown: true
-children:
-  - title: bookshelf
+children: 
+  - title: Bookshelf
     permalink: /books/
-  - title: divider
-  - title: blog
+  - title: Blog
     permalink: /blog/
+  - title: Photography
+    permalink: /photography/
+  - title: Recipes
+    permalink: /recipes/
 ---
