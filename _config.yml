@@ -147,6 +147,7 @@ collections:
     output: true
   projects:
     output: true
+    permalink: /projects/:title/
 
 jekyll-archives:
   posts:
